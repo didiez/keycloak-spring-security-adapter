@@ -42,6 +42,12 @@
         <junit.version>4.13.2</junit.version>
     </properties>
 
+    <scm>
+        <connection>scm:git:git://github.com/didiez/keycloak-spring-security-adapter.git</connection>
+        <developerConnection>scm:git:git@github.com:didiez/keycloak-spring-security-adapter.git</developerConnection>
+        <url>https://github.com/didiez/keycloak-spring-security-adapter/tree/master/</url>
+    </scm>
+
     <dependencyManagement>
         <dependencies>
             <dependency>
