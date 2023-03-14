@@ -10,6 +10,7 @@ on:
 # uses an API that requires write permission on the repository to submit dependencies
 permissions:
   contents: write
+  packages: write
 
 jobs:
   build:
