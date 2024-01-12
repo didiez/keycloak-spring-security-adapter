@@ -48,7 +48,7 @@ public class KeycloakLogoutHandler implements LogoutHandler {
     private AdapterTokenStoreFactory adapterTokenStoreFactory = new SpringSecurityAdapterTokenStoreFactory();
 
     public KeycloakLogoutHandler(AdapterDeploymentContext adapterDeploymentContext) {
-        Assert.notNull(adapterDeploymentContext);
+        Assert.notNull(adapterDeploymentContext, "the deployment context must not be null");
         this.adapterDeploymentContext = adapterDeploymentContext;
     }
 

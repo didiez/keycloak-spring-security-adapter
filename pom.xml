@@ -22,7 +22,7 @@
 
     <groupId>com.github.didiez</groupId>
     <artifactId>keycloak-spring-security-adapter</artifactId>
-    <version>21.0.0-SNAPSHOT</version>
+    <version>21.1.0-SNAPSHOT</version>
     <name>Keycloak Spring Security Integration</name>
     <description/>
 
@@ -30,8 +30,8 @@
         <maven.compiler.release>17</maven.compiler.release>
         <keycloak.version>21.0.1</keycloak.version>
         <jakarta.servlet.version>6.0.0</jakarta.servlet.version>
-        <spring.version>6.0.3</spring.version>
-        <spring-security.version>6.0.2</spring-security.version>
+        <spring.version>6.1.2</spring.version>
+        <spring-security.version>6.2.1</spring-security.version>
         <mockito.version>4.8.1</mockito.version>
         <httpclient5.version>5.2.1</httpclient5.version>        
         <bouncycastle.version>1.70</bouncycastle.version>
